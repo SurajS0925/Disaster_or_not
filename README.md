@@ -1,1 +1,6 @@
 # Disaster_or_not
+This project focused on predicting whether tweets describe real disasters using natural language processing techniques(NLP). The dataset comprised tweet text along with associated keywords and locations. Initial data exploration provided insights into tweet lengths, common keywords, and the distribution between disaster and non-disaster tweets. Visualizations such as histograms and bar plots enhanced understanding of the data's characteristics.
+
+Following data preprocessing steps to handle missing values and encode categorical variables, a Random Forest Classifier was trained on the processed data. Achieving 91% accuracy on the training set, the classifier demonstrated strong predictive performance. Subsequently, predictions were generated for a separate test dataset and formatted into a submission file for evaluation.
+
+The project encompassed comprehensive data exploration, preprocessing steps including categorical encoding, model training using Random Forest Classifier, prediction generation, and submission file creation. These efforts collectively demonstrated the application of machine learning techniques to analyze and classify disaster-related content from Twitter feeds effectively.
